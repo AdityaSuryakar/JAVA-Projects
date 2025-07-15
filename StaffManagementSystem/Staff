@@ -1,0 +1,14 @@
+package com.dkte;
+
+//base class or super class.
+class Staff 
+{
+    protected int id;
+    protected String name;
+    public Staff(int id, String name) 
+    {
+        this.id=id;
+        this.name=name;
+    }
+}
+
